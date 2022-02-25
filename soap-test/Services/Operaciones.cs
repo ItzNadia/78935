@@ -4,7 +4,7 @@ using WSDL.mensajes;
 namespace WSDL.operaciones{
     public class Operaciones : Mensajes{
         public string Saludar(string nombre){
-            string msj = "Hola! "+nombre", te saluda Nadia";
+            string msj = "Hola "+nombre + ", te saluda Nadia Itzel";
             return msj;
         }
         public string Mostrar(int id){
